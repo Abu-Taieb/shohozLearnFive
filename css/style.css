@@ -1,0 +1,193 @@
+/* ==== Home Page CSS ====*/
+#navigationSection span img{
+    width: 34px;
+    height: 31px;
+    margin-top: -7px;
+}
+.bege-orange{
+    background: rgba(247, 51, 1, 0.7490196078431373);
+}
+#navIcon .nav-item{
+    padding-left: 8px;
+}
+#navIcon .nav-item:hover a{
+    color:rgba(247, 51, 1, 0.7490196078431373)!important;
+    background:#fff;
+    border-radius: 5px;
+    transition: .3s all ease !important;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.29)!important;
+    border-radius: 5px;
+    padding:10px;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left:0;
+    top:0;
+    bottom:0;
+}
+.carousel-control-prev{
+    z-index: 15;
+}
+.carousel-control-next{
+    z-index: 15;
+}
+
+#mycarousel .carousel-caption img{
+    width:100px;
+    height:100px;
+}
+.carousel-item{
+    min-height:350px;
+    position: relative;
+}
+.carousel-img-1{
+    background-image: url('../img/carousel-img-1.jpg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background-image: url('../img/carousel-img-2.jpg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background-image: url('../img/carousel-img-3.jpg');
+    background-size: cover;
+}
+#homeIcon i{
+    font-size:38px;
+}
+
+#getStarted{
+    background: url(../img/bg-sologon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.darkOverly{
+    background: rgba(0,0,0,0.7);
+}
+#youTubeSection{
+    background: url(../img/bg-sologon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:200px;
+}
+.youTubedarkOverly{
+    background: rgba(0,0,0,0.7);
+    min-height:200px;
+}
+#homeInfo img{
+ height:250px;
+ width:100%;
+}
+
+#youTubeSection i{
+    color: red;
+    font-size: 28px;
+    background: #fff;
+    width:35px;
+}
+.btn-orange{
+    background: #F96641;
+    color:#fff;
+    border:1px solid #F96641;
+}
+.btn-orange:hover{
+    background:rgb(245, 51, 2);
+    color:#fff;
+    border:1px solid #F96641;
+}
+
+/* ==== About Page CSS ====*/
+
+#aboutSection{
+    background: url(../img/carousel-img-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height:200px;
+}
+.aboutdarkOverly{
+    min-height:300px;
+}
+#cardSection i{
+    font-size: 32px;
+    padding: 0 0 10px 0;
+}
+hr {
+    border-top: 1px solid rgba(249, 102, 65, 0.41);
+}
+#testimonial .slick-prev:before,.slick-next:before{
+    color:#000;
+}
+
+/* ==== Services Page CSS ====*/
+#serviceSection{
+    background: url(../img/carousel-img-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+.servicedarkOverly{
+    background: rgba(0,0,0,0.4);
+    min-height: 300px;
+}
+
+/* ==== Blog Page CSS ====*/
+#blogSection{
+    background: url(../img/blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+.blogdarkOverly{
+    background: rgba(0,0,0,0.4);
+    min-height: 300px;
+}
+
+/* ==== Contact Page CSS ====*/
+#contactSection{
+    background: url(../img/blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+.contactdarkOverly{
+    background: rgba(0,0,0,0.4);
+    min-height: 300px;
+}
+
+
+
+@media(max-width:768px){
+    #navIcon .nav-item{
+        padding-left: 0;
+    }
+    #navIcon .nav-item:hover a{
+        padding-left: 10px;
+    }
+    #getStarted{
+        min-height: 320px;
+    }
+    .subscribeButton{
+        width:100%;
+    }
+}
+
+
+/* .bg-Color{
+    background: #129cdb52 !important;
+    border-radius: 2px !important;
+}
+.dropdown-margin-top{
+    margin-top: 10px!important;
+}
+.sub-dropdown-margin-top{
+    margin-top: -1px!important;
+} */
